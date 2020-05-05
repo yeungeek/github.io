@@ -81,6 +81,6 @@ theme: archer
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github_token@github.com/yeungeek.github.io.git
+  repository: https://gh_token@github.com/yeungeek/yeungeek.github.io.git
   branch: master
   message: "yeungeek update site"
