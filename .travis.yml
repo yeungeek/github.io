@@ -7,4 +7,5 @@ branches:
   only:
     - develop # build master branch only
 script:
-  - hhexo clean && hexo deploy
+  - npm install
+  - hexo clean && hexo deploy
