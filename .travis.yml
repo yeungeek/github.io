@@ -9,3 +9,7 @@ branches:
 script:
   - npm install
   - hexo clean && hexo deploy
+before_script:
+  - git config user.name "yeungeek"
+  - git config user.email "yanjian0410@gmail.com"
+  - sed -i "s/github_token/${GH_TOKEN}/g" _config.yml || exit 1
